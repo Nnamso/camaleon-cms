@@ -11,6 +11,7 @@ class PostTableIntoUtf8 < ActiveRecord::Migration
       t.integer  "parent_id"
       t.datetime "password_reset_sent_at"
       t.datetime "last_login_at"
+      #store user ip 
 
       # t.integer  "site_id",   default: -1, index: true
       t.timestamps null: false
